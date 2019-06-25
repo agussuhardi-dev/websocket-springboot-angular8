@@ -1,0 +1,16 @@
+
+
+<button (click)="_connect()">Connect</button>
+<button (click)="_disconnect()">disconnect</button>
+
+
+<hr />
+  Message : <input type="text" #msg value="agus suhardi"/>
+<button (click)="_sendMsg(msg.value)">Send</button>
+
+<hr />
+<div *ngFor="let c of contents">
+  <p>{{c.name}} : {{c.message}}</p>
+</div>
+
+<router-outlet></router-outlet>

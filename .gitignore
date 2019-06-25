@@ -1,0 +1,9 @@
+
+.idea/
+!/backend-springBoot/gs-messaging-stomp-websocket.iml
+!/backend-springBoot/.idea/
+!/backend-springBoot/gradle/
+!/backend-springBoot/target/
+!/backend-springBoot/.mvn/
+/frond-angular8/package-lock.json
+/frond-angular8/.idea/
